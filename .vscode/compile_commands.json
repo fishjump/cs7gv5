@@ -1,0 +1,101 @@
+[
+{
+  "directory": "/Users/yuyue/repos/cs7gv5",
+  "arguments": ["/opt/homebrew/bin/ccache", "/usr/bin/xcrun", "-sdk", "macosx", "clang", "-c", "-Qunused-arguments", "-arch", "arm64", "-mmacosx-version-min=12.3", "-isysroot", "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk", "-Wall", "-Werror", "-std=c++17", "-Icommon/include", "-Icommon/include/imgui", "-I/opt/homebrew/Cellar/glm/0.9.9.8/include", "-I/opt/homebrew/Cellar/glew/2.2.0_1/include", "-I/opt/homebrew/Cellar/glfw/3.3.6/include", "-I/opt/homebrew/Cellar/boost/1.76.0/include", "-I/opt/homebrew/Cellar/assimp/5.2.0/include", "-I/opt/homebrew/Cellar/freetype/2.11.1/include/freetype2", "-Imain/include", "-framework", "OpenGL", "-framework", "GLUT", "-framework", "Cocoa", "-o", "build/.objs/cs7gv5/macosx/arm64/release/common/src/imnotgui.cpp.o", "common/src/imnotgui.cpp"],
+  "file": "common/src/imnotgui.cpp"
+},
+{
+  "directory": "/Users/yuyue/repos/cs7gv5",
+  "arguments": ["/opt/homebrew/bin/ccache", "/usr/bin/xcrun", "-sdk", "macosx", "clang", "-c", "-Qunused-arguments", "-arch", "arm64", "-mmacosx-version-min=12.3", "-isysroot", "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk", "-Wall", "-Werror", "-std=c++17", "-Icommon/include", "-Icommon/include/imgui", "-I/opt/homebrew/Cellar/glm/0.9.9.8/include", "-I/opt/homebrew/Cellar/glew/2.2.0_1/include", "-I/opt/homebrew/Cellar/glfw/3.3.6/include", "-I/opt/homebrew/Cellar/boost/1.76.0/include", "-I/opt/homebrew/Cellar/assimp/5.2.0/include", "-I/opt/homebrew/Cellar/freetype/2.11.1/include/freetype2", "-Imain/include", "-framework", "OpenGL", "-framework", "GLUT", "-framework", "Cocoa", "-o", "build/.objs/cs7gv5/macosx/arm64/release/common/src/mesh.cpp.o", "common/src/mesh.cpp"],
+  "file": "common/src/mesh.cpp"
+},
+{
+  "directory": "/Users/yuyue/repos/cs7gv5",
+  "arguments": ["/opt/homebrew/bin/ccache", "/usr/bin/xcrun", "-sdk", "macosx", "clang", "-c", "-Qunused-arguments", "-arch", "arm64", "-mmacosx-version-min=12.3", "-isysroot", "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk", "-Wall", "-Werror", "-std=c++17", "-Icommon/include", "-Icommon/include/imgui", "-I/opt/homebrew/Cellar/glm/0.9.9.8/include", "-I/opt/homebrew/Cellar/glew/2.2.0_1/include", "-I/opt/homebrew/Cellar/glfw/3.3.6/include", "-I/opt/homebrew/Cellar/boost/1.76.0/include", "-I/opt/homebrew/Cellar/assimp/5.2.0/include", "-I/opt/homebrew/Cellar/freetype/2.11.1/include/freetype2", "-Imain/include", "-framework", "OpenGL", "-framework", "GLUT", "-framework", "Cocoa", "-o", "build/.objs/cs7gv5/macosx/arm64/release/common/src/camera.cpp.o", "common/src/camera.cpp"],
+  "file": "common/src/camera.cpp"
+},
+{
+  "directory": "/Users/yuyue/repos/cs7gv5",
+  "arguments": ["/opt/homebrew/bin/ccache", "/usr/bin/xcrun", "-sdk", "macosx", "clang", "-c", "-Qunused-arguments", "-arch", "arm64", "-mmacosx-version-min=12.3", "-isysroot", "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk", "-Wall", "-Werror", "-std=c++17", "-Icommon/include", "-Icommon/include/imgui", "-I/opt/homebrew/Cellar/glm/0.9.9.8/include", "-I/opt/homebrew/Cellar/glew/2.2.0_1/include", "-I/opt/homebrew/Cellar/glfw/3.3.6/include", "-I/opt/homebrew/Cellar/boost/1.76.0/include", "-I/opt/homebrew/Cellar/assimp/5.2.0/include", "-I/opt/homebrew/Cellar/freetype/2.11.1/include/freetype2", "-Imain/include", "-framework", "OpenGL", "-framework", "GLUT", "-framework", "Cocoa", "-o", "build/.objs/cs7gv5/macosx/arm64/release/common/src/gl.cpp.o", "common/src/gl.cpp"],
+  "file": "common/src/gl.cpp"
+},
+{
+  "directory": "/Users/yuyue/repos/cs7gv5",
+  "arguments": ["/opt/homebrew/bin/ccache", "/usr/bin/xcrun", "-sdk", "macosx", "clang", "-c", "-Qunused-arguments", "-arch", "arm64", "-mmacosx-version-min=12.3", "-isysroot", "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk", "-Wall", "-Werror", "-std=c++17", "-Icommon/include", "-Icommon/include/imgui", "-I/opt/homebrew/Cellar/glm/0.9.9.8/include", "-I/opt/homebrew/Cellar/glew/2.2.0_1/include", "-I/opt/homebrew/Cellar/glfw/3.3.6/include", "-I/opt/homebrew/Cellar/boost/1.76.0/include", "-I/opt/homebrew/Cellar/assimp/5.2.0/include", "-I/opt/homebrew/Cellar/freetype/2.11.1/include/freetype2", "-Imain/include", "-framework", "OpenGL", "-framework", "GLUT", "-framework", "Cocoa", "-o", "build/.objs/cs7gv5/macosx/arm64/release/common/src/imgui-1.86/imgui_widgets.cpp.o", "common/src/imgui-1.86/imgui_widgets.cpp"],
+  "file": "common/src/imgui-1.86/imgui_widgets.cpp"
+},
+{
+  "directory": "/Users/yuyue/repos/cs7gv5",
+  "arguments": ["/opt/homebrew/bin/ccache", "/usr/bin/xcrun", "-sdk", "macosx", "clang", "-c", "-Qunused-arguments", "-arch", "arm64", "-mmacosx-version-min=12.3", "-isysroot", "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk", "-Wall", "-Werror", "-std=c++17", "-Icommon/include", "-Icommon/include/imgui", "-I/opt/homebrew/Cellar/glm/0.9.9.8/include", "-I/opt/homebrew/Cellar/glew/2.2.0_1/include", "-I/opt/homebrew/Cellar/glfw/3.3.6/include", "-I/opt/homebrew/Cellar/boost/1.76.0/include", "-I/opt/homebrew/Cellar/assimp/5.2.0/include", "-I/opt/homebrew/Cellar/freetype/2.11.1/include/freetype2", "-Imain/include", "-framework", "OpenGL", "-framework", "GLUT", "-framework", "Cocoa", "-o", "build/.objs/cs7gv5/macosx/arm64/release/common/src/imgui-1.86/backends/imgui_impl_opengl3.cpp.o", "common/src/imgui-1.86/backends/imgui_impl_opengl3.cpp"],
+  "file": "common/src/imgui-1.86/backends/imgui_impl_opengl3.cpp"
+},
+{
+  "directory": "/Users/yuyue/repos/cs7gv5",
+  "arguments": ["/opt/homebrew/bin/ccache", "/usr/bin/xcrun", "-sdk", "macosx", "clang", "-c", "-Qunused-arguments", "-arch", "arm64", "-mmacosx-version-min=12.3", "-isysroot", "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk", "-Wall", "-Werror", "-std=c++17", "-Icommon/include", "-Icommon/include/imgui", "-I/opt/homebrew/Cellar/glm/0.9.9.8/include", "-I/opt/homebrew/Cellar/glew/2.2.0_1/include", "-I/opt/homebrew/Cellar/glfw/3.3.6/include", "-I/opt/homebrew/Cellar/boost/1.76.0/include", "-I/opt/homebrew/Cellar/assimp/5.2.0/include", "-I/opt/homebrew/Cellar/freetype/2.11.1/include/freetype2", "-Imain/include", "-framework", "OpenGL", "-framework", "GLUT", "-framework", "Cocoa", "-o", "build/.objs/cs7gv5/macosx/arm64/release/common/src/imgui-1.86/backends/imgui_impl_glfw.cpp.o", "common/src/imgui-1.86/backends/imgui_impl_glfw.cpp"],
+  "file": "common/src/imgui-1.86/backends/imgui_impl_glfw.cpp"
+},
+{
+  "directory": "/Users/yuyue/repos/cs7gv5",
+  "arguments": ["/opt/homebrew/bin/ccache", "/usr/bin/xcrun", "-sdk", "macosx", "clang", "-c", "-Qunused-arguments", "-arch", "arm64", "-mmacosx-version-min=12.3", "-isysroot", "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk", "-Wall", "-Werror", "-std=c++17", "-Icommon/include", "-Icommon/include/imgui", "-I/opt/homebrew/Cellar/glm/0.9.9.8/include", "-I/opt/homebrew/Cellar/glew/2.2.0_1/include", "-I/opt/homebrew/Cellar/glfw/3.3.6/include", "-I/opt/homebrew/Cellar/boost/1.76.0/include", "-I/opt/homebrew/Cellar/assimp/5.2.0/include", "-I/opt/homebrew/Cellar/freetype/2.11.1/include/freetype2", "-Imain/include", "-framework", "OpenGL", "-framework", "GLUT", "-framework", "Cocoa", "-o", "build/.objs/cs7gv5/macosx/arm64/release/common/src/imgui-1.86/imgui.cpp.o", "common/src/imgui-1.86/imgui.cpp"],
+  "file": "common/src/imgui-1.86/imgui.cpp"
+},
+{
+  "directory": "/Users/yuyue/repos/cs7gv5",
+  "arguments": ["/opt/homebrew/bin/ccache", "/usr/bin/xcrun", "-sdk", "macosx", "clang", "-c", "-Qunused-arguments", "-arch", "arm64", "-mmacosx-version-min=12.3", "-isysroot", "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk", "-Wall", "-Werror", "-std=c++17", "-Icommon/include", "-Icommon/include/imgui", "-I/opt/homebrew/Cellar/glm/0.9.9.8/include", "-I/opt/homebrew/Cellar/glew/2.2.0_1/include", "-I/opt/homebrew/Cellar/glfw/3.3.6/include", "-I/opt/homebrew/Cellar/boost/1.76.0/include", "-I/opt/homebrew/Cellar/assimp/5.2.0/include", "-I/opt/homebrew/Cellar/freetype/2.11.1/include/freetype2", "-Imain/include", "-framework", "OpenGL", "-framework", "GLUT", "-framework", "Cocoa", "-o", "build/.objs/cs7gv5/macosx/arm64/release/common/src/imgui-1.86/imgui_tables.cpp.o", "common/src/imgui-1.86/imgui_tables.cpp"],
+  "file": "common/src/imgui-1.86/imgui_tables.cpp"
+},
+{
+  "directory": "/Users/yuyue/repos/cs7gv5",
+  "arguments": ["/opt/homebrew/bin/ccache", "/usr/bin/xcrun", "-sdk", "macosx", "clang", "-c", "-Qunused-arguments", "-arch", "arm64", "-mmacosx-version-min=12.3", "-isysroot", "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk", "-Wall", "-Werror", "-std=c++17", "-Icommon/include", "-Icommon/include/imgui", "-I/opt/homebrew/Cellar/glm/0.9.9.8/include", "-I/opt/homebrew/Cellar/glew/2.2.0_1/include", "-I/opt/homebrew/Cellar/glfw/3.3.6/include", "-I/opt/homebrew/Cellar/boost/1.76.0/include", "-I/opt/homebrew/Cellar/assimp/5.2.0/include", "-I/opt/homebrew/Cellar/freetype/2.11.1/include/freetype2", "-Imain/include", "-framework", "OpenGL", "-framework", "GLUT", "-framework", "Cocoa", "-o", "build/.objs/cs7gv5/macosx/arm64/release/common/src/imgui-1.86/imgui_demo.cpp.o", "common/src/imgui-1.86/imgui_demo.cpp"],
+  "file": "common/src/imgui-1.86/imgui_demo.cpp"
+},
+{
+  "directory": "/Users/yuyue/repos/cs7gv5",
+  "arguments": ["/opt/homebrew/bin/ccache", "/usr/bin/xcrun", "-sdk", "macosx", "clang", "-c", "-Qunused-arguments", "-arch", "arm64", "-mmacosx-version-min=12.3", "-isysroot", "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk", "-Wall", "-Werror", "-std=c++17", "-Icommon/include", "-Icommon/include/imgui", "-I/opt/homebrew/Cellar/glm/0.9.9.8/include", "-I/opt/homebrew/Cellar/glew/2.2.0_1/include", "-I/opt/homebrew/Cellar/glfw/3.3.6/include", "-I/opt/homebrew/Cellar/boost/1.76.0/include", "-I/opt/homebrew/Cellar/assimp/5.2.0/include", "-I/opt/homebrew/Cellar/freetype/2.11.1/include/freetype2", "-Imain/include", "-framework", "OpenGL", "-framework", "GLUT", "-framework", "Cocoa", "-o", "build/.objs/cs7gv5/macosx/arm64/release/common/src/imgui-1.86/imgui_draw.cpp.o", "common/src/imgui-1.86/imgui_draw.cpp"],
+  "file": "common/src/imgui-1.86/imgui_draw.cpp"
+},
+{
+  "directory": "/Users/yuyue/repos/cs7gv5",
+  "arguments": ["/opt/homebrew/bin/ccache", "/usr/bin/xcrun", "-sdk", "macosx", "clang", "-c", "-Qunused-arguments", "-arch", "arm64", "-mmacosx-version-min=12.3", "-isysroot", "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk", "-Wall", "-Werror", "-std=c++17", "-Icommon/include", "-Icommon/include/imgui", "-I/opt/homebrew/Cellar/glm/0.9.9.8/include", "-I/opt/homebrew/Cellar/glew/2.2.0_1/include", "-I/opt/homebrew/Cellar/glfw/3.3.6/include", "-I/opt/homebrew/Cellar/boost/1.76.0/include", "-I/opt/homebrew/Cellar/assimp/5.2.0/include", "-I/opt/homebrew/Cellar/freetype/2.11.1/include/freetype2", "-Imain/include", "-framework", "OpenGL", "-framework", "GLUT", "-framework", "Cocoa", "-o", "build/.objs/cs7gv5/macosx/arm64/release/common/src/shader.cpp.o", "common/src/shader.cpp"],
+  "file": "common/src/shader.cpp"
+},
+{
+  "directory": "/Users/yuyue/repos/cs7gv5",
+  "arguments": ["/opt/homebrew/bin/ccache", "/usr/bin/xcrun", "-sdk", "macosx", "clang", "-c", "-Qunused-arguments", "-arch", "arm64", "-mmacosx-version-min=12.3", "-isysroot", "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk", "-Wall", "-Werror", "-std=c++17", "-Icommon/include", "-Icommon/include/imgui", "-I/opt/homebrew/Cellar/glm/0.9.9.8/include", "-I/opt/homebrew/Cellar/glew/2.2.0_1/include", "-I/opt/homebrew/Cellar/glfw/3.3.6/include", "-I/opt/homebrew/Cellar/boost/1.76.0/include", "-I/opt/homebrew/Cellar/assimp/5.2.0/include", "-I/opt/homebrew/Cellar/freetype/2.11.1/include/freetype2", "-Imain/include", "-framework", "OpenGL", "-framework", "GLUT", "-framework", "Cocoa", "-o", "build/.objs/cs7gv5/macosx/arm64/release/common/src/shader_profile.cpp.o", "common/src/shader_profile.cpp"],
+  "file": "common/src/shader_profile.cpp"
+},
+{
+  "directory": "/Users/yuyue/repos/cs7gv5",
+  "arguments": ["/opt/homebrew/bin/ccache", "/usr/bin/xcrun", "-sdk", "macosx", "clang", "-c", "-Qunused-arguments", "-arch", "arm64", "-mmacosx-version-min=12.3", "-isysroot", "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk", "-Wall", "-Werror", "-std=c++17", "-Icommon/include", "-Icommon/include/imgui", "-I/opt/homebrew/Cellar/glm/0.9.9.8/include", "-I/opt/homebrew/Cellar/glew/2.2.0_1/include", "-I/opt/homebrew/Cellar/glfw/3.3.6/include", "-I/opt/homebrew/Cellar/boost/1.76.0/include", "-I/opt/homebrew/Cellar/assimp/5.2.0/include", "-I/opt/homebrew/Cellar/freetype/2.11.1/include/freetype2", "-Imain/include", "-framework", "OpenGL", "-framework", "GLUT", "-framework", "Cocoa", "-o", "build/.objs/cs7gv5/macosx/arm64/release/common/src/model.cpp.o", "common/src/model.cpp"],
+  "file": "common/src/model.cpp"
+},
+{
+  "directory": "/Users/yuyue/repos/cs7gv5",
+  "arguments": ["/opt/homebrew/bin/ccache", "/usr/bin/xcrun", "-sdk", "macosx", "clang", "-c", "-Qunused-arguments", "-arch", "arm64", "-mmacosx-version-min=12.3", "-isysroot", "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk", "-Wall", "-Werror", "-std=c++17", "-Icommon/include", "-Icommon/include/imgui", "-I/opt/homebrew/Cellar/glm/0.9.9.8/include", "-I/opt/homebrew/Cellar/glew/2.2.0_1/include", "-I/opt/homebrew/Cellar/glfw/3.3.6/include", "-I/opt/homebrew/Cellar/boost/1.76.0/include", "-I/opt/homebrew/Cellar/assimp/5.2.0/include", "-I/opt/homebrew/Cellar/freetype/2.11.1/include/freetype2", "-Imain/include", "-framework", "OpenGL", "-framework", "GLUT", "-framework", "Cocoa", "-o", "build/.objs/cs7gv5/macosx/arm64/release/common/src/freetype_gl.cpp.o", "common/src/freetype_gl.cpp"],
+  "file": "common/src/freetype_gl.cpp"
+},
+{
+  "directory": "/Users/yuyue/repos/cs7gv5",
+  "arguments": ["/opt/homebrew/bin/ccache", "/usr/bin/xcrun", "-sdk", "macosx", "clang", "-c", "-Qunused-arguments", "-arch", "arm64", "-mmacosx-version-min=12.3", "-isysroot", "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk", "-Wall", "-Werror", "-std=c++17", "-Icommon/include", "-Icommon/include/imgui", "-I/opt/homebrew/Cellar/glm/0.9.9.8/include", "-I/opt/homebrew/Cellar/glew/2.2.0_1/include", "-I/opt/homebrew/Cellar/glfw/3.3.6/include", "-I/opt/homebrew/Cellar/boost/1.76.0/include", "-I/opt/homebrew/Cellar/assimp/5.2.0/include", "-I/opt/homebrew/Cellar/freetype/2.11.1/include/freetype2", "-Imain/include", "-framework", "OpenGL", "-framework", "GLUT", "-framework", "Cocoa", "-o", "build/.objs/cs7gv5/macosx/arm64/release/common/src/demo_win.cpp.o", "common/src/demo_win.cpp"],
+  "file": "common/src/demo_win.cpp"
+},
+{
+  "directory": "/Users/yuyue/repos/cs7gv5",
+  "arguments": ["/opt/homebrew/bin/ccache", "/usr/bin/xcrun", "-sdk", "macosx", "clang", "-c", "-Qunused-arguments", "-arch", "arm64", "-mmacosx-version-min=12.3", "-isysroot", "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk", "-Wall", "-Werror", "-std=c++17", "-Icommon/include", "-Icommon/include/imgui", "-I/opt/homebrew/Cellar/glm/0.9.9.8/include", "-I/opt/homebrew/Cellar/glew/2.2.0_1/include", "-I/opt/homebrew/Cellar/glfw/3.3.6/include", "-I/opt/homebrew/Cellar/boost/1.76.0/include", "-I/opt/homebrew/Cellar/assimp/5.2.0/include", "-I/opt/homebrew/Cellar/freetype/2.11.1/include/freetype2", "-Imain/include", "-framework", "OpenGL", "-framework", "GLUT", "-framework", "Cocoa", "-o", "build/.objs/cs7gv5/macosx/arm64/release/main/src/program_options.cpp.o", "main/src/program_options.cpp"],
+  "file": "main/src/program_options.cpp"
+},
+{
+  "directory": "/Users/yuyue/repos/cs7gv5",
+  "arguments": ["/opt/homebrew/bin/ccache", "/usr/bin/xcrun", "-sdk", "macosx", "clang", "-c", "-Qunused-arguments", "-arch", "arm64", "-mmacosx-version-min=12.3", "-isysroot", "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk", "-Wall", "-Werror", "-std=c++17", "-Icommon/include", "-Icommon/include/imgui", "-I/opt/homebrew/Cellar/glm/0.9.9.8/include", "-I/opt/homebrew/Cellar/glew/2.2.0_1/include", "-I/opt/homebrew/Cellar/glfw/3.3.6/include", "-I/opt/homebrew/Cellar/boost/1.76.0/include", "-I/opt/homebrew/Cellar/assimp/5.2.0/include", "-I/opt/homebrew/Cellar/freetype/2.11.1/include/freetype2", "-Imain/include", "-framework", "OpenGL", "-framework", "GLUT", "-framework", "Cocoa", "-o", "build/.objs/cs7gv5/macosx/arm64/release/main/src/io.cpp.o", "main/src/io.cpp"],
+  "file": "main/src/io.cpp"
+},
+{
+  "directory": "/Users/yuyue/repos/cs7gv5",
+  "arguments": ["/opt/homebrew/bin/ccache", "/usr/bin/xcrun", "-sdk", "macosx", "clang", "-c", "-Qunused-arguments", "-arch", "arm64", "-mmacosx-version-min=12.3", "-isysroot", "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk", "-Wall", "-Werror", "-std=c++17", "-Icommon/include", "-Icommon/include/imgui", "-I/opt/homebrew/Cellar/glm/0.9.9.8/include", "-I/opt/homebrew/Cellar/glew/2.2.0_1/include", "-I/opt/homebrew/Cellar/glfw/3.3.6/include", "-I/opt/homebrew/Cellar/boost/1.76.0/include", "-I/opt/homebrew/Cellar/assimp/5.2.0/include", "-I/opt/homebrew/Cellar/freetype/2.11.1/include/freetype2", "-Imain/include", "-framework", "OpenGL", "-framework", "GLUT", "-framework", "Cocoa", "-o", "build/.objs/cs7gv5/macosx/arm64/release/main/src/main.cpp.o", "main/src/main.cpp"],
+  "file": "main/src/main.cpp"
+},
+{
+  "directory": "/Users/yuyue/repos/cs7gv5",
+  "arguments": ["/opt/homebrew/bin/ccache", "/usr/bin/xcrun", "-sdk", "macosx", "clang", "-c", "-Qunused-arguments", "-arch", "arm64", "-mmacosx-version-min=12.3", "-isysroot", "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk", "-Wall", "-Werror", "-std=c17", "-Icommon/include", "-Icommon/include/imgui", "-I/opt/homebrew/Cellar/glm/0.9.9.8/include", "-I/opt/homebrew/Cellar/glew/2.2.0_1/include", "-I/opt/homebrew/Cellar/glfw/3.3.6/include", "-I/opt/homebrew/Cellar/boost/1.76.0/include", "-I/opt/homebrew/Cellar/assimp/5.2.0/include", "-I/opt/homebrew/Cellar/freetype/2.11.1/include/freetype2", "-Imain/include", "-framework", "OpenGL", "-framework", "GLUT", "-framework", "Cocoa", "-o", "build/.objs/cs7gv5/macosx/arm64/release/common/src/glad.c.o", "common/src/glad.c"],
+  "file": "common/src/glad.c"
+}]
