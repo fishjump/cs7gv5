@@ -1,0 +1,3 @@
+[submodule "module/cs7gvx_utils"]
+	path = module/cs7gvx_utils
+	url = git@github.com:fishjump/cs7gvx_utils.git
