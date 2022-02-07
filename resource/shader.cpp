@@ -23,3 +23,7 @@ cs7gvx_utils::gl::shader_t cs7gv5::global::phong_shader(
 
 cs7gvx_utils::gl::shader_t cs7gv5::global::font_shader("shader/font.vs",
                                                        "shader/font.fs");
+
+cs7gvx_utils::gl::shader_t cs7gv5::global::naive_shader(
+    "shader/base.vs", "shader/naive.fs",
+    std::make_shared<cs7gvx_utils::gl::phong_profile_t>());

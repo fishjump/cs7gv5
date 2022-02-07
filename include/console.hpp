@@ -10,6 +10,7 @@ public:
 
   // private:
   bool _quaternion = false;
+  bool _3rd_person_view = true;
   float _roll = 0;
   float _pitch = 0;
   float _yaw = 0;

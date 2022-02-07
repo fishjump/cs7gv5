@@ -6,7 +6,7 @@ namespace {
 float last_x = cs7gv5::SCR_WIDTH / 2.0f;
 float last_y = cs7gv5::SCR_HEIGHT / 2.0f;
 bool first_mouse = true;
-float _delta_time = 0.0f;
+float _delta_time = 0.1f;
 
 } // namespace
 
@@ -18,22 +18,22 @@ void cs7gv5::process_input(GLFWwindow *window) {
   }
 
   if (glfwGetKey(window, GLFW_KEY_W) == GLFW_PRESS) {
-    cs7gv5::global::camera.process_keyboard(
+    cs7gv5::global::camera_3rd.process_keyboard(
         cs7gvx_utils::gl::camera_movement_t::FORWARD, _delta_time);
   }
 
   if (glfwGetKey(window, GLFW_KEY_S) == GLFW_PRESS) {
-    cs7gv5::global::camera.process_keyboard(
+    cs7gv5::global::camera_3rd.process_keyboard(
         cs7gvx_utils::gl::camera_movement_t::BACKWARD, _delta_time);
   }
 
   if (glfwGetKey(window, GLFW_KEY_A) == GLFW_PRESS) {
-    cs7gv5::global::camera.process_keyboard(
+    cs7gv5::global::camera_3rd.process_keyboard(
         cs7gvx_utils::gl::camera_movement_t::LEFT, _delta_time);
   }
 
   if (glfwGetKey(window, GLFW_KEY_D) == GLFW_PRESS) {
-    cs7gv5::global::camera.process_keyboard(
+    cs7gv5::global::camera_3rd.process_keyboard(
         cs7gvx_utils::gl::camera_movement_t::RIGHT, _delta_time);
   }
 }
@@ -60,10 +60,10 @@ void cs7gv5::mouse_callback(GLFWwindow *window, double x_pos_in,
   last_x = x_pos;
   last_y = y_pos;
 
-  cs7gv5::global::camera.process_mouse_movement(x_offset, y_offset);
+  cs7gv5::global::camera_3rd.process_mouse_movement(x_offset, y_offset);
 }
 
 void cs7gv5::scroll_callback(GLFWwindow *window, double x_offset,
                              double y_offset) {
-  cs7gv5::global::camera.process_mouse_scroll(static_cast<float>(y_offset));
+  cs7gv5::global::camera_3rd.process_mouse_scroll(static_cast<float>(y_offset));
 }

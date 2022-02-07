@@ -12,10 +12,10 @@ void cs7gv5::windows::console_t::refresh() {
   ImGui::SliderFloat("Yaw", &_yaw, -180.0f, 180.0f);
 
   if (ImGui::Button("reset")) {
+    _quaternion = false;
     _roll = 0;
     _pitch = 0;
     _yaw = 0;
-    _quaternion = false;
   }
   ImGui::SameLine();
   if (ImGui::Button("test gimbal lock")) {
@@ -25,6 +25,11 @@ void cs7gv5::windows::console_t::refresh() {
     _yaw = 0;
   }
   if (ImGui::Button("1st/3rd person view switch")) {
+    if (_3rd_person_view) {
+      _3rd_person_view = false;
+    } else {
+      _3rd_person_view = true;
+    }
   }
 
   ImGui::End();
