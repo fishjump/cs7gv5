@@ -13,9 +13,6 @@ extern cs7gvx_utils::gl::shader_t naive_shader;
 extern windows::console_t console;
 
 extern models::airplane_t airplane;
-
-inline cs7gvx_utils::gl::model_t cube("model/cube/cube.obj",
-                                      &cs7gv5::global::naive_shader,
-                                      &cs7gv5::global::camera_3rd);
+extern cs7gvx_utils::gl::model_t cube;
 
 } // namespace cs7gv5::global

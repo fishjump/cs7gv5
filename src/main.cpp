@@ -69,7 +69,6 @@ int main(int argc, char **argv) {
       cs7gv5::global::airplane.bind_camera(&cs7gv5::global::camera_3rd);
       cs7gv5::global::cube.bind_camera(&cs7gv5::global::camera_3rd);
       cs7gv5::global::airplane.loop();
-
     } else {
       cs7gv5::global::airplane.bind_camera(&cs7gv5::global::camera_1st);
       cs7gv5::global::cube.bind_camera(&cs7gv5::global::camera_1st);
