@@ -1,3 +1,4 @@
+#include <cmath>
 #include <console.hpp>
 #include <resource_index.hpp>
 
@@ -7,9 +8,9 @@ void cs7gv5::windows::console_t::refresh() {
   ImGui::Text("%.1f FPS", ImGui::GetIO().Framerate);
 
   ImGui::Checkbox("Enable Quaternion", &_quaternion);
-  ImGui::SliderFloat("Roll", &_roll, -180.0f, 180.0f);
-  ImGui::SliderFloat("Pitch", &_pitch, -180.0f, 180.0f);
-  ImGui::SliderFloat("Yaw", &_yaw, -180.0f, 180.0f);
+  ImGui::SliderFloat("Roll", &_roll, -180.0f, 180.0f, "%.0f");
+  ImGui::SliderFloat("Pitch", &_pitch, -180.0f, 180.0f, "%.0f");
+  ImGui::SliderFloat("Yaw", &_yaw, -180.0f, 180.0f, "%.0f");
 
   if (ImGui::Button("reset")) {
     _quaternion = true;
