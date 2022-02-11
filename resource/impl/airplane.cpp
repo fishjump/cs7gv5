@@ -1,4 +1,4 @@
-#include <global.hpp>
+#include <resource_index.hpp>
 
 cs7gv5::models::airplane_t::airplane_t(const glm::vec3 &init_pos,
                                        cs7gvx_utils::gl::shader_t *shader,
@@ -12,15 +12,15 @@ cs7gv5::models::airplane_t::airplane_t(const glm::vec3 &init_pos,
 void cs7gv5::models::airplane_t::init() {
   model_t::init();
 
-  _transform_mat = translate(_init_pos);
-  _transform_mat = scale(glm::vec3(0.4));
+  transform = translate(_init_pos);
+  transform = scale(glm::vec3(0.3));
 }
 
 void cs7gv5::models::airplane_t::update() {
-  _transform_mat = rotate(glm::radians(global::console._roll),
-                          glm::radians(global::console._pitch),
-                          glm::radians(global::console._yaw),
-                          global::console._quaternion, glm::mat4(1));
+  transform = rotate(glm::vec3{glm::radians(global::console._roll),
+                               glm::radians(global::console._pitch),
+                               glm::radians(global::console._yaw)},
+                     global::console._quaternion, glm::mat4(1));
 }
 
 cs7gv5::models::airplane_t

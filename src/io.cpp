@@ -1,5 +1,5 @@
-#include <global.hpp>
 #include <io.hpp>
+#include <resource_index.hpp>
 
 namespace {
 

@@ -1,7 +1,7 @@
 set_languages("c17", "cxx17")
 set_warnings("all", "error")
 
-add_includedirs("module/cs7gvx_utils/include", "/opt/homebrew/Cellar/glm/0.9.9.8/include",
+add_includedirs("resource", "module/cs7gvx_utils/include", "/opt/homebrew/Cellar/glm/0.9.9.8/include",
     "/opt/homebrew/Cellar/glfw/3.3.6/include", "/opt/homebrew/Cellar/boost/1.76.0/include",
     "/opt/homebrew/Cellar/assimp/5.2.0/include", "/opt/homebrew/Cellar/freetype/2.11.1/include/freetype2")
 

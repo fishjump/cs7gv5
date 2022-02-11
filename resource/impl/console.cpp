@@ -1,5 +1,5 @@
 #include <console.hpp>
-#include <global.hpp>
+#include <resource_index.hpp>
 
 void cs7gv5::windows::console_t::refresh() {
   ImGui::Begin("cs7gv5 console");

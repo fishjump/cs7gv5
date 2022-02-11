@@ -3,6 +3,7 @@
         {
             "name": "Mac",
             "includePath": [
+                "${workspaceFolder}/resource",
                 "${workspaceFolder}/include",
                 "${workspaceFolder}/module/cs7gvx_utils/include",
                 "/opt/homebrew/Cellar/glm/0.9.9.8/include",

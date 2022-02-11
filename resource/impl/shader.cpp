@@ -1,4 +1,4 @@
-#include <global.hpp>
+#include <resource_index.hpp>
 
 namespace {
 
@@ -26,4 +26,8 @@ cs7gvx_utils::gl::shader_t cs7gv5::global::font_shader("shader/font.vs",
 
 cs7gvx_utils::gl::shader_t cs7gv5::global::naive_shader(
     "shader/base.vs", "shader/naive.fs",
+    std::make_shared<cs7gvx_utils::gl::phong_profile_t>());
+
+cs7gvx_utils::gl::shader_t cs7gv5::global::skybox_shader(
+    "shader/skybox.vs", "shader/skybox.fs",
     std::make_shared<cs7gvx_utils::gl::phong_profile_t>());
