@@ -1,4 +1,5 @@
-#include <io.hpp>
+#include "config.hpp"
+
 #include <resource_index.hpp>
 
 namespace {
@@ -19,22 +20,22 @@ void cs7gv5::process_input(GLFWwindow *window) {
 
   if (glfwGetKey(window, GLFW_KEY_W) == GLFW_PRESS) {
     cs7gv5::global::camera_3rd.process_keyboard(
-        cs7gvx_utils::gl::camera_movement_t::FORWARD, _delta_time);
+        figine::core::camera_movement_t::FORWARD, _delta_time);
   }
 
   if (glfwGetKey(window, GLFW_KEY_S) == GLFW_PRESS) {
     cs7gv5::global::camera_3rd.process_keyboard(
-        cs7gvx_utils::gl::camera_movement_t::BACKWARD, _delta_time);
+        figine::core::camera_movement_t::BACKWARD, _delta_time);
   }
 
   if (glfwGetKey(window, GLFW_KEY_A) == GLFW_PRESS) {
     cs7gv5::global::camera_3rd.process_keyboard(
-        cs7gvx_utils::gl::camera_movement_t::LEFT, _delta_time);
+        figine::core::camera_movement_t::LEFT, _delta_time);
   }
 
   if (glfwGetKey(window, GLFW_KEY_D) == GLFW_PRESS) {
     cs7gv5::global::camera_3rd.process_keyboard(
-        cs7gvx_utils::gl::camera_movement_t::RIGHT, _delta_time);
+        figine::core::camera_movement_t::RIGHT, _delta_time);
   }
 }
 

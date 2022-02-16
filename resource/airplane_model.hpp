@@ -1,15 +1,14 @@
 #pragma once
 
-#include <cs7gvx_utils.hpp>
+#include "figine/figine.hpp"
+#include "resource_index.hpp"
 
 namespace cs7gv5::models {
 
-class airplane_t : public cs7gvx_utils::gl::model_t {
+class airplane_t : public figine::core::object_t {
 public:
-  airplane_t(const glm::vec3 &init_pos, cs7gvx_utils::gl::shader_t *shader,
-             cs7gvx_utils::gl::camera_t *camera,
-             float aspect_ratio = (float)800 / (float)600,
-             bool gamma_correction = false);
+  airplane_t(const glm::vec3 &init_pos, figine::core::shader_if *shader,
+             figine::core::camera_t *camera, bool gamma_correction = false);
 
   void init() override;
   void update() override;

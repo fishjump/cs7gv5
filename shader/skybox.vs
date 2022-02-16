@@ -6,11 +6,11 @@ out vec3 texture_coordinate;
 
 uniform mat4 projection;
 uniform mat4 view;
-uniform mat4 model;
+uniform mat4 transform;
 
 void main() {
   texture_coordinate = pos_in;
-  vec3 frag_pos = vec3(model * vec4(pos_in, 1.0));
+  vec3 frag_pos = vec3(transform * vec4(pos_in, 1.0));
 
   gl_Position = projection * view * vec4(frag_pos, 1.0);
 }

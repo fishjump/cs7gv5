@@ -1,6 +1,6 @@
 #pragma once
 
-#include <cs7gvx_utils.hpp>
+#include <figine/figine.hpp>
 
 namespace cs7gv5 {
 

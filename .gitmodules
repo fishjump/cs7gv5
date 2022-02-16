@@ -1,3 +1,6 @@
 [submodule "module/cs7gvx_utils"]
 	path = module/cs7gvx_utils
 	url = git@github.com:fishjump/cs7gvx_utils.git
+[submodule "module/figine"]
+	path = module/figine
+	url = https://github.com/fishjump/figine.git
