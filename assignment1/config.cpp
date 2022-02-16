@@ -1,6 +1,5 @@
 #include "config.hpp"
-
-#include <resource_index.hpp>
+#include "resource.hpp"
 
 namespace {
 

@@ -1,7 +1,7 @@
 #pragma once
 
 #include "figine/figine.hpp"
-#include "resource_index.hpp"
+#include "resource.hpp"
 
 namespace cs7gv5::models {
 
@@ -15,6 +15,7 @@ public:
 
 private:
   glm::vec3 _init_pos;
+  float roll = 0, pitch = 0, yaw = 0;
 };
 
 } // namespace cs7gv5::models

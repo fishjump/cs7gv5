@@ -1,6 +1,6 @@
 #pragma once
 
-#include "airplane_model.hpp"
+#include "airplane.hpp"
 #include "console.hpp"
 
 namespace cs7gv5::global {
@@ -19,8 +19,8 @@ inline figine::builtin::shader::material_t material = {
     .specular_color = glm::vec3(1),
 };
 
-inline figine::core::camera_t camera_1st({0.0f, 3.0f, 0.0f});
-inline figine::core::camera_t camera_3rd({0.0f, 1.0f, 8.0f});
+inline figine::core::camera_t camera_1st({0.0f, 1.0f, 0.0f});
+inline figine::core::camera_t camera_3rd({0.0f, 0.3f, 0.3f});
 
 inline figine::builtin::shader::phong_shader_t phong_shader(material, light);
 inline figine::builtin::shader::naive_shader_t naive_shader;
