@@ -19,7 +19,7 @@ inline figine::builtin::shader::material_t material = {
     .specular_color = glm::vec3(1),
 };
 
-inline figine::core::camera_t camera_1st({0.0f, 1.0f, 0.0f});
+inline figine::core::camera_t camera_1st({0.0f, 0.2f, 0.0f});
 inline figine::core::camera_t camera_3rd({0.0f, 0.3f, 0.3f});
 
 inline figine::builtin::shader::phong_shader_t phong_shader(material, light);
