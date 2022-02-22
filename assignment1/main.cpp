@@ -3,6 +3,8 @@
 #include "resource.hpp"
 
 int main(int argc, char **argv) {
+  namespace gb = cs7gv5::global;
+
   figine::global::init();
   defer(glfwTerminate());
 
@@ -10,11 +12,11 @@ int main(int argc, char **argv) {
       cs7gv5::SCR_WIDTH, cs7gv5::SCR_HEIGHT, "cs7gv5", NULL, NULL);
 
   figine::imnotgui::init(window);
-  figine::imnotgui::register_window(&cs7gv5::global::console);
+  figine::imnotgui::register_window(&gb::console);
 
-  cs7gv5::global::init();
+  gb::init();
 
-  cs7gv5::global::camera_3rd.lock({0, 0, 0});
+  gb::camera_3rd.lock({0, 0, 0});
   while (!glfwWindowShouldClose(window)) {
     glClearColor(0.1f, 0.1f, 0.1f, 1.0f);
     glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
@@ -22,39 +24,39 @@ int main(int argc, char **argv) {
     cs7gv5::process_input(window);
 
     auto trans = figine::core::object_if::rotate(
-        glm::vec3{glm::radians(cs7gv5::global::console.roll),
-                  glm::radians(cs7gv5::global::console.pitch),
-                  glm::radians(cs7gv5::global::console.yaw)},
+        glm::vec3{glm::radians(gb::console.roll),
+                  glm::radians(gb::console.pitch),
+                  glm::radians(gb::console.yaw)},
         true, glm::mat4(1));
 
-    cs7gv5::global::camera_1st.position = trans * glm::vec4{0, 0.2, 0, 0};
-    cs7gv5::global::camera_1st.front = trans * glm::vec4{0, 0, -1, 0};
+    gb::camera_1st.position = trans * glm::vec4{0, 0.2, 0, 0};
+    gb::camera_1st.front = trans * glm::vec4{0, 0, -1, 0};
 
     glViewport(0, 0, figine::global::win_mgr::width,
                figine::global::win_mgr::height);
-    if (cs7gv5::global::console.third_person_view) {
-      cs7gv5::global::airplane.camera = &cs7gv5::global::camera_3rd;
-      cs7gv5::global::skybox.camera = &cs7gv5::global::camera_3rd;
+    if (gb::console.third_person_view) {
+      gb::airplane.camera = &gb::camera_3rd;
+      gb::skybox.camera = &gb::camera_3rd;
 
-      cs7gv5::global::airplane.loop();
+      gb::airplane.loop(gb::phong_shader);
     } else {
-      cs7gv5::global::airplane.camera = &cs7gv5::global::camera_1st;
-      cs7gv5::global::skybox.camera = &cs7gv5::global::camera_1st;
+      gb::airplane.camera = &gb::camera_1st;
+      gb::skybox.camera = &gb::camera_1st;
     }
-    cs7gv5::global::skybox.loop();
+    gb::skybox.loop();
 
     glViewport(0, 0, figine::global::win_mgr::width * 0.2,
                figine::global::win_mgr::height * 0.2);
-    if (cs7gv5::global::console.third_person_view) {
-      cs7gv5::global::airplane.camera = &cs7gv5::global::camera_1st;
-      cs7gv5::global::skybox.camera = &cs7gv5::global::camera_1st;
+    if (gb::console.third_person_view) {
+      gb::airplane.camera = &gb::camera_1st;
+      gb::skybox.camera = &gb::camera_1st;
     } else {
-      cs7gv5::global::airplane.camera = &cs7gv5::global::camera_3rd;
-      cs7gv5::global::skybox.camera = &cs7gv5::global::camera_3rd;
+      gb::airplane.camera = &gb::camera_3rd;
+      gb::skybox.camera = &gb::camera_3rd;
 
-      cs7gv5::global::airplane.loop();
+      gb::airplane.loop(gb::phong_shader);
     }
-    cs7gv5::global::skybox.loop();
+    gb::skybox.loop();
 
     figine::imnotgui::render();
 

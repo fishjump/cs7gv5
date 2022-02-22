@@ -36,5 +36,3 @@ void cs7gv5::windows::console_t::refresh() {
 
   ImGui::End();
 }
-
-cs7gv5::windows::console_t cs7gv5::global::console;

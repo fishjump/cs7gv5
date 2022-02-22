@@ -88,6 +88,7 @@
     "condition_variable": "cpp",
     "future": "cpp",
     "queue": "cpp",
-    "__functional_base_03": "cpp"
+    "__functional_base_03": "cpp",
+    "__availability": "cpp"
   }
 }
