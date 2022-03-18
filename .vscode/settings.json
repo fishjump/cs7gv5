@@ -89,6 +89,21 @@
     "future": "cpp",
     "queue": "cpp",
     "__functional_base_03": "cpp",
-    "__availability": "cpp"
+    "__availability": "cpp",
+    "cfenv": "cpp",
+    "compare": "cpp",
+    "concepts": "cpp",
+    "numbers": "cpp",
+    "ranges": "cpp",
+    "semaphore": "cpp",
+    "*.tcc": "cpp",
+    "memory_resource": "cpp",
+    "stop_token": "cpp",
+    "cinttypes": "cpp",
+    "shared_mutex": "cpp",
+    "sparse": "cpp",
+    "core": "cpp",
+    "eigen": "cpp",
+    "cholesky": "cpp"
   }
 }

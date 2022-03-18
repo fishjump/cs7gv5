@@ -1,156 +1,161 @@
 [
 {
   "directory": "/Users/yuyue/repos/cs7gv5",
-  "arguments": ["/opt/homebrew/bin/ccache", "/usr/bin/xcrun", "-sdk", "macosx", "clang", "-c", "-Qunused-arguments", "-arch", "arm64", "-mmacosx-version-min=12.3", "-isysroot", "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk", "-std=c++17", "-Imodule/figine/include", "-I/opt/homebrew/Cellar/glm/0.9.9.8/include", "-I/opt/homebrew/Cellar/glfw/3.3.6/include", "-I/opt/homebrew/Cellar/boost/1.76.0/include", "-I/opt/homebrew/Cellar/assimp/5.2.1/include", "-I/opt/homebrew/Cellar/freetype/2.11.1/include/freetype2", "-framework", "OpenGL", "-framework", "Cocoa", "-o", "build/.objs/assignment2-2/macosx/arm64/release/assignment2-2/peter.cpp.o", "assignment2-2/peter.cpp"],
-  "file": "assignment2-2/peter.cpp"
-},
-{
-  "directory": "/Users/yuyue/repos/cs7gv5",
-  "arguments": ["/opt/homebrew/bin/ccache", "/usr/bin/xcrun", "-sdk", "macosx", "clang", "-c", "-Qunused-arguments", "-arch", "arm64", "-mmacosx-version-min=12.3", "-isysroot", "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk", "-std=c++17", "-Imodule/figine/include", "-I/opt/homebrew/Cellar/glm/0.9.9.8/include", "-I/opt/homebrew/Cellar/glfw/3.3.6/include", "-I/opt/homebrew/Cellar/boost/1.76.0/include", "-I/opt/homebrew/Cellar/assimp/5.2.1/include", "-I/opt/homebrew/Cellar/freetype/2.11.1/include/freetype2", "-framework", "OpenGL", "-framework", "Cocoa", "-o", "build/.objs/assignment2-2/macosx/arm64/release/assignment2-2/main.cpp.o", "assignment2-2/main.cpp"],
-  "file": "assignment2-2/main.cpp"
-},
-{
-  "directory": "/Users/yuyue/repos/cs7gv5",
-  "arguments": ["/opt/homebrew/bin/ccache", "/usr/bin/xcrun", "-sdk", "macosx", "clang", "-c", "-Qunused-arguments", "-arch", "arm64", "-mmacosx-version-min=12.3", "-isysroot", "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk", "-Wall", "-Werror", "-std=c++17", "-Imodule/figine/include", "-I/opt/homebrew/Cellar/glm/0.9.9.8/include", "-I/opt/homebrew/Cellar/glfw/3.3.6/include", "-I/opt/homebrew/Cellar/boost/1.76.0/include", "-I/opt/homebrew/Cellar/assimp/5.2.1/include", "-I/opt/homebrew/Cellar/freetype/2.11.1/include/freetype2", "-framework", "OpenGL", "-framework", "GLUT", "-framework", "Cocoa", "-o", "build/.objs/test/macosx/arm64/release/module/figine/test/main.cpp.o", "module/figine/test/main.cpp"],
+  "arguments": ["/opt/homebrew/bin/ccache", "/usr/bin/xcrun", "-sdk", "macosx", "clang", "-c", "-Qunused-arguments", "-arch", "arm64", "-mmacosx-version-min=12.3", "-isysroot", "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk", "-Wall", "-Werror", "-std=c++17", "-Imodule/figine/include", "-I/opt/homebrew/include", "-framework", "OpenGL", "-framework", "Cocoa", "-o", "build/.objs/test/macosx/arm64/release/module/figine/test/main.cpp.o", "module/figine/test/main.cpp"],
   "file": "module/figine/test/main.cpp"
 },
 {
   "directory": "/Users/yuyue/repos/cs7gv5",
-  "arguments": ["/opt/homebrew/bin/ccache", "/usr/bin/xcrun", "-sdk", "macosx", "clang", "-c", "-Qunused-arguments", "-arch", "arm64", "-mmacosx-version-min=12.3", "-isysroot", "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk", "-std=c++17", "-Imodule/figine/include", "-I/opt/homebrew/Cellar/glm/0.9.9.8/include", "-I/opt/homebrew/Cellar/glfw/3.3.6/include", "-I/opt/homebrew/Cellar/boost/1.76.0/include", "-I/opt/homebrew/Cellar/assimp/5.2.1/include", "-I/opt/homebrew/Cellar/freetype/2.11.1/include/freetype2", "-framework", "OpenGL", "-framework", "Cocoa", "-o", "build/.objs/assignment2-3/macosx/arm64/release/assignment2-3/console.cpp.o", "assignment2-3/console.cpp"],
-  "file": "assignment2-3/console.cpp"
+  "arguments": ["/opt/homebrew/bin/ccache", "/usr/bin/xcrun", "-sdk", "macosx", "clang", "-c", "-Qunused-arguments", "-arch", "arm64", "-mmacosx-version-min=12.3", "-isysroot", "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk", "-std=c++17", "-Imodule/figine/include", "-I/opt/homebrew/include", "-framework", "OpenGL", "-framework", "Cocoa", "-o", "build/.objs/assignment3/macosx/arm64/release/assignment3/main.cpp.o", "assignment3/main.cpp"],
+  "file": "assignment3/main.cpp"
 },
 {
   "directory": "/Users/yuyue/repos/cs7gv5",
-  "arguments": ["/opt/homebrew/bin/ccache", "/usr/bin/xcrun", "-sdk", "macosx", "clang", "-c", "-Qunused-arguments", "-arch", "arm64", "-mmacosx-version-min=12.3", "-isysroot", "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk", "-std=c++17", "-Imodule/figine/include", "-I/opt/homebrew/Cellar/glm/0.9.9.8/include", "-I/opt/homebrew/Cellar/glfw/3.3.6/include", "-I/opt/homebrew/Cellar/boost/1.76.0/include", "-I/opt/homebrew/Cellar/assimp/5.2.1/include", "-I/opt/homebrew/Cellar/freetype/2.11.1/include/freetype2", "-framework", "OpenGL", "-framework", "Cocoa", "-o", "build/.objs/assignment2-3/macosx/arm64/release/assignment2-3/peter.cpp.o", "assignment2-3/peter.cpp"],
-  "file": "assignment2-3/peter.cpp"
-},
-{
-  "directory": "/Users/yuyue/repos/cs7gv5",
-  "arguments": ["/opt/homebrew/bin/ccache", "/usr/bin/xcrun", "-sdk", "macosx", "clang", "-c", "-Qunused-arguments", "-arch", "arm64", "-mmacosx-version-min=12.3", "-isysroot", "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk", "-std=c++17", "-Imodule/figine/include", "-I/opt/homebrew/Cellar/glm/0.9.9.8/include", "-I/opt/homebrew/Cellar/glfw/3.3.6/include", "-I/opt/homebrew/Cellar/boost/1.76.0/include", "-I/opt/homebrew/Cellar/assimp/5.2.1/include", "-I/opt/homebrew/Cellar/freetype/2.11.1/include/freetype2", "-framework", "OpenGL", "-framework", "Cocoa", "-o", "build/.objs/assignment2-3/macosx/arm64/release/assignment2-3/main.cpp.o", "assignment2-3/main.cpp"],
-  "file": "assignment2-3/main.cpp"
-},
-{
-  "directory": "/Users/yuyue/repos/cs7gv5",
-  "arguments": ["/opt/homebrew/bin/ccache", "/usr/bin/xcrun", "-sdk", "macosx", "clang", "-c", "-Qunused-arguments", "-arch", "arm64", "-mmacosx-version-min=12.3", "-isysroot", "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk", "-Wall", "-Werror", "-std=c++17", "-Imodule/figine/include", "-I/opt/homebrew/Cellar/glm/0.9.9.8/include", "-I/opt/homebrew/Cellar/glfw/3.3.6/include", "-I/opt/homebrew/Cellar/boost/1.76.0/include", "-I/opt/homebrew/Cellar/assimp/5.2.1/include", "-I/opt/homebrew/Cellar/freetype/2.11.1/include/freetype2", "-framework", "OpenGL", "-framework", "GLUT", "-framework", "Cocoa", "-o", "build/.objs/figine/macosx/arm64/release/module/figine/src/camera.cpp.o", "module/figine/src/camera.cpp"],
-  "file": "module/figine/src/camera.cpp"
-},
-{
-  "directory": "/Users/yuyue/repos/cs7gv5",
-  "arguments": ["/opt/homebrew/bin/ccache", "/usr/bin/xcrun", "-sdk", "macosx", "clang", "-c", "-Qunused-arguments", "-arch", "arm64", "-mmacosx-version-min=12.3", "-isysroot", "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk", "-Wall", "-Werror", "-std=c++17", "-Imodule/figine/include", "-I/opt/homebrew/Cellar/glm/0.9.9.8/include", "-I/opt/homebrew/Cellar/glfw/3.3.6/include", "-I/opt/homebrew/Cellar/boost/1.76.0/include", "-I/opt/homebrew/Cellar/assimp/5.2.1/include", "-I/opt/homebrew/Cellar/freetype/2.11.1/include/freetype2", "-framework", "OpenGL", "-framework", "GLUT", "-framework", "Cocoa", "-o", "build/.objs/figine/macosx/arm64/release/module/figine/src/object/bone.cpp.o", "module/figine/src/object/bone.cpp"],
-  "file": "module/figine/src/object/bone.cpp"
-},
-{
-  "directory": "/Users/yuyue/repos/cs7gv5",
-  "arguments": ["/opt/homebrew/bin/ccache", "/usr/bin/xcrun", "-sdk", "macosx", "clang", "-c", "-Qunused-arguments", "-arch", "arm64", "-mmacosx-version-min=12.3", "-isysroot", "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk", "-Wall", "-Werror", "-std=c++17", "-Imodule/figine/include", "-I/opt/homebrew/Cellar/glm/0.9.9.8/include", "-I/opt/homebrew/Cellar/glfw/3.3.6/include", "-I/opt/homebrew/Cellar/boost/1.76.0/include", "-I/opt/homebrew/Cellar/assimp/5.2.1/include", "-I/opt/homebrew/Cellar/freetype/2.11.1/include/freetype2", "-framework", "OpenGL", "-framework", "GLUT", "-framework", "Cocoa", "-o", "build/.objs/figine/macosx/arm64/release/module/figine/src/object/mesh.cpp.o", "module/figine/src/object/mesh.cpp"],
-  "file": "module/figine/src/object/mesh.cpp"
-},
-{
-  "directory": "/Users/yuyue/repos/cs7gv5",
-  "arguments": ["/opt/homebrew/bin/ccache", "/usr/bin/xcrun", "-sdk", "macosx", "clang", "-c", "-Qunused-arguments", "-arch", "arm64", "-mmacosx-version-min=12.3", "-isysroot", "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk", "-Wall", "-Werror", "-std=c++17", "-Imodule/figine/include", "-I/opt/homebrew/Cellar/glm/0.9.9.8/include", "-I/opt/homebrew/Cellar/glfw/3.3.6/include", "-I/opt/homebrew/Cellar/boost/1.76.0/include", "-I/opt/homebrew/Cellar/assimp/5.2.1/include", "-I/opt/homebrew/Cellar/freetype/2.11.1/include/freetype2", "-framework", "OpenGL", "-framework", "GLUT", "-framework", "Cocoa", "-o", "build/.objs/figine/macosx/arm64/release/module/figine/src/object/object.cpp.o", "module/figine/src/object/object.cpp"],
-  "file": "module/figine/src/object/object.cpp"
-},
-{
-  "directory": "/Users/yuyue/repos/cs7gv5",
-  "arguments": ["/opt/homebrew/bin/ccache", "/usr/bin/xcrun", "-sdk", "macosx", "clang", "-c", "-Qunused-arguments", "-arch", "arm64", "-mmacosx-version-min=12.3", "-isysroot", "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk", "-Wall", "-Werror", "-std=c++17", "-Imodule/figine/include", "-I/opt/homebrew/Cellar/glm/0.9.9.8/include", "-I/opt/homebrew/Cellar/glfw/3.3.6/include", "-I/opt/homebrew/Cellar/boost/1.76.0/include", "-I/opt/homebrew/Cellar/assimp/5.2.1/include", "-I/opt/homebrew/Cellar/freetype/2.11.1/include/freetype2", "-framework", "OpenGL", "-framework", "GLUT", "-framework", "Cocoa", "-o", "build/.objs/figine/macosx/arm64/release/module/figine/src/object/animation.cpp.o", "module/figine/src/object/animation.cpp"],
-  "file": "module/figine/src/object/animation.cpp"
-},
-{
-  "directory": "/Users/yuyue/repos/cs7gv5",
-  "arguments": ["/opt/homebrew/bin/ccache", "/usr/bin/xcrun", "-sdk", "macosx", "clang", "-c", "-Qunused-arguments", "-arch", "arm64", "-mmacosx-version-min=12.3", "-isysroot", "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk", "-Wall", "-Werror", "-std=c++17", "-Imodule/figine/include", "-I/opt/homebrew/Cellar/glm/0.9.9.8/include", "-I/opt/homebrew/Cellar/glfw/3.3.6/include", "-I/opt/homebrew/Cellar/boost/1.76.0/include", "-I/opt/homebrew/Cellar/assimp/5.2.1/include", "-I/opt/homebrew/Cellar/freetype/2.11.1/include/freetype2", "-framework", "OpenGL", "-framework", "GLUT", "-framework", "Cocoa", "-o", "build/.objs/figine/macosx/arm64/release/module/figine/src/object/animator.cpp.o", "module/figine/src/object/animator.cpp"],
-  "file": "module/figine/src/object/animator.cpp"
-},
-{
-  "directory": "/Users/yuyue/repos/cs7gv5",
-  "arguments": ["/opt/homebrew/bin/ccache", "/usr/bin/xcrun", "-sdk", "macosx", "clang", "-c", "-Qunused-arguments", "-arch", "arm64", "-mmacosx-version-min=12.3", "-isysroot", "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk", "-Wall", "-Werror", "-std=c++17", "-Imodule/figine/include", "-I/opt/homebrew/Cellar/glm/0.9.9.8/include", "-I/opt/homebrew/Cellar/glfw/3.3.6/include", "-I/opt/homebrew/Cellar/boost/1.76.0/include", "-I/opt/homebrew/Cellar/assimp/5.2.1/include", "-I/opt/homebrew/Cellar/freetype/2.11.1/include/freetype2", "-framework", "OpenGL", "-framework", "GLUT", "-framework", "Cocoa", "-o", "build/.objs/figine/macosx/arm64/release/module/figine/src/stb_image.cpp.o", "module/figine/src/stb_image.cpp"],
-  "file": "module/figine/src/stb_image.cpp"
-},
-{
-  "directory": "/Users/yuyue/repos/cs7gv5",
-  "arguments": ["/opt/homebrew/bin/ccache", "/usr/bin/xcrun", "-sdk", "macosx", "clang", "-c", "-Qunused-arguments", "-arch", "arm64", "-mmacosx-version-min=12.3", "-isysroot", "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk", "-Wall", "-Werror", "-std=c++17", "-Imodule/figine/include", "-I/opt/homebrew/Cellar/glm/0.9.9.8/include", "-I/opt/homebrew/Cellar/glfw/3.3.6/include", "-I/opt/homebrew/Cellar/boost/1.76.0/include", "-I/opt/homebrew/Cellar/assimp/5.2.1/include", "-I/opt/homebrew/Cellar/freetype/2.11.1/include/freetype2", "-framework", "OpenGL", "-framework", "GLUT", "-framework", "Cocoa", "-o", "build/.objs/figine/macosx/arm64/release/module/figine/src/imnotgui/imnotgui.cpp.o", "module/figine/src/imnotgui/imnotgui.cpp"],
-  "file": "module/figine/src/imnotgui/imnotgui.cpp"
-},
-{
-  "directory": "/Users/yuyue/repos/cs7gv5",
-  "arguments": ["/opt/homebrew/bin/ccache", "/usr/bin/xcrun", "-sdk", "macosx", "clang", "-c", "-Qunused-arguments", "-arch", "arm64", "-mmacosx-version-min=12.3", "-isysroot", "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk", "-Wall", "-Werror", "-std=c++17", "-Imodule/figine/include", "-I/opt/homebrew/Cellar/glm/0.9.9.8/include", "-I/opt/homebrew/Cellar/glfw/3.3.6/include", "-I/opt/homebrew/Cellar/boost/1.76.0/include", "-I/opt/homebrew/Cellar/assimp/5.2.1/include", "-I/opt/homebrew/Cellar/freetype/2.11.1/include/freetype2", "-framework", "OpenGL", "-framework", "GLUT", "-framework", "Cocoa", "-o", "build/.objs/figine/macosx/arm64/release/module/figine/src/imnotgui/imgui-1.86/imgui_widgets.cpp.o", "module/figine/src/imnotgui/imgui-1.86/imgui_widgets.cpp"],
-  "file": "module/figine/src/imnotgui/imgui-1.86/imgui_widgets.cpp"
-},
-{
-  "directory": "/Users/yuyue/repos/cs7gv5",
-  "arguments": ["/opt/homebrew/bin/ccache", "/usr/bin/xcrun", "-sdk", "macosx", "clang", "-c", "-Qunused-arguments", "-arch", "arm64", "-mmacosx-version-min=12.3", "-isysroot", "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk", "-Wall", "-Werror", "-std=c++17", "-Imodule/figine/include", "-I/opt/homebrew/Cellar/glm/0.9.9.8/include", "-I/opt/homebrew/Cellar/glfw/3.3.6/include", "-I/opt/homebrew/Cellar/boost/1.76.0/include", "-I/opt/homebrew/Cellar/assimp/5.2.1/include", "-I/opt/homebrew/Cellar/freetype/2.11.1/include/freetype2", "-framework", "OpenGL", "-framework", "GLUT", "-framework", "Cocoa", "-o", "build/.objs/figine/macosx/arm64/release/module/figine/src/imnotgui/imgui-1.86/backends/imgui_impl_opengl3.cpp.o", "module/figine/src/imnotgui/imgui-1.86/backends/imgui_impl_opengl3.cpp"],
-  "file": "module/figine/src/imnotgui/imgui-1.86/backends/imgui_impl_opengl3.cpp"
-},
-{
-  "directory": "/Users/yuyue/repos/cs7gv5",
-  "arguments": ["/opt/homebrew/bin/ccache", "/usr/bin/xcrun", "-sdk", "macosx", "clang", "-c", "-Qunused-arguments", "-arch", "arm64", "-mmacosx-version-min=12.3", "-isysroot", "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk", "-Wall", "-Werror", "-std=c++17", "-Imodule/figine/include", "-I/opt/homebrew/Cellar/glm/0.9.9.8/include", "-I/opt/homebrew/Cellar/glfw/3.3.6/include", "-I/opt/homebrew/Cellar/boost/1.76.0/include", "-I/opt/homebrew/Cellar/assimp/5.2.1/include", "-I/opt/homebrew/Cellar/freetype/2.11.1/include/freetype2", "-framework", "OpenGL", "-framework", "GLUT", "-framework", "Cocoa", "-o", "build/.objs/figine/macosx/arm64/release/module/figine/src/imnotgui/imgui-1.86/backends/imgui_impl_glfw.cpp.o", "module/figine/src/imnotgui/imgui-1.86/backends/imgui_impl_glfw.cpp"],
-  "file": "module/figine/src/imnotgui/imgui-1.86/backends/imgui_impl_glfw.cpp"
-},
-{
-  "directory": "/Users/yuyue/repos/cs7gv5",
-  "arguments": ["/opt/homebrew/bin/ccache", "/usr/bin/xcrun", "-sdk", "macosx", "clang", "-c", "-Qunused-arguments", "-arch", "arm64", "-mmacosx-version-min=12.3", "-isysroot", "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk", "-Wall", "-Werror", "-std=c++17", "-Imodule/figine/include", "-I/opt/homebrew/Cellar/glm/0.9.9.8/include", "-I/opt/homebrew/Cellar/glfw/3.3.6/include", "-I/opt/homebrew/Cellar/boost/1.76.0/include", "-I/opt/homebrew/Cellar/assimp/5.2.1/include", "-I/opt/homebrew/Cellar/freetype/2.11.1/include/freetype2", "-framework", "OpenGL", "-framework", "GLUT", "-framework", "Cocoa", "-o", "build/.objs/figine/macosx/arm64/release/module/figine/src/imnotgui/imgui-1.86/imgui.cpp.o", "module/figine/src/imnotgui/imgui-1.86/imgui.cpp"],
-  "file": "module/figine/src/imnotgui/imgui-1.86/imgui.cpp"
-},
-{
-  "directory": "/Users/yuyue/repos/cs7gv5",
-  "arguments": ["/opt/homebrew/bin/ccache", "/usr/bin/xcrun", "-sdk", "macosx", "clang", "-c", "-Qunused-arguments", "-arch", "arm64", "-mmacosx-version-min=12.3", "-isysroot", "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk", "-Wall", "-Werror", "-std=c++17", "-Imodule/figine/include", "-I/opt/homebrew/Cellar/glm/0.9.9.8/include", "-I/opt/homebrew/Cellar/glfw/3.3.6/include", "-I/opt/homebrew/Cellar/boost/1.76.0/include", "-I/opt/homebrew/Cellar/assimp/5.2.1/include", "-I/opt/homebrew/Cellar/freetype/2.11.1/include/freetype2", "-framework", "OpenGL", "-framework", "GLUT", "-framework", "Cocoa", "-o", "build/.objs/figine/macosx/arm64/release/module/figine/src/imnotgui/imgui-1.86/imgui_tables.cpp.o", "module/figine/src/imnotgui/imgui-1.86/imgui_tables.cpp"],
-  "file": "module/figine/src/imnotgui/imgui-1.86/imgui_tables.cpp"
-},
-{
-  "directory": "/Users/yuyue/repos/cs7gv5",
-  "arguments": ["/opt/homebrew/bin/ccache", "/usr/bin/xcrun", "-sdk", "macosx", "clang", "-c", "-Qunused-arguments", "-arch", "arm64", "-mmacosx-version-min=12.3", "-isysroot", "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk", "-Wall", "-Werror", "-std=c++17", "-Imodule/figine/include", "-I/opt/homebrew/Cellar/glm/0.9.9.8/include", "-I/opt/homebrew/Cellar/glfw/3.3.6/include", "-I/opt/homebrew/Cellar/boost/1.76.0/include", "-I/opt/homebrew/Cellar/assimp/5.2.1/include", "-I/opt/homebrew/Cellar/freetype/2.11.1/include/freetype2", "-framework", "OpenGL", "-framework", "GLUT", "-framework", "Cocoa", "-o", "build/.objs/figine/macosx/arm64/release/module/figine/src/imnotgui/imgui-1.86/imgui_demo.cpp.o", "module/figine/src/imnotgui/imgui-1.86/imgui_demo.cpp"],
-  "file": "module/figine/src/imnotgui/imgui-1.86/imgui_demo.cpp"
-},
-{
-  "directory": "/Users/yuyue/repos/cs7gv5",
-  "arguments": ["/opt/homebrew/bin/ccache", "/usr/bin/xcrun", "-sdk", "macosx", "clang", "-c", "-Qunused-arguments", "-arch", "arm64", "-mmacosx-version-min=12.3", "-isysroot", "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk", "-Wall", "-Werror", "-std=c++17", "-Imodule/figine/include", "-I/opt/homebrew/Cellar/glm/0.9.9.8/include", "-I/opt/homebrew/Cellar/glfw/3.3.6/include", "-I/opt/homebrew/Cellar/boost/1.76.0/include", "-I/opt/homebrew/Cellar/assimp/5.2.1/include", "-I/opt/homebrew/Cellar/freetype/2.11.1/include/freetype2", "-framework", "OpenGL", "-framework", "GLUT", "-framework", "Cocoa", "-o", "build/.objs/figine/macosx/arm64/release/module/figine/src/imnotgui/imgui-1.86/imgui_draw.cpp.o", "module/figine/src/imnotgui/imgui-1.86/imgui_draw.cpp"],
-  "file": "module/figine/src/imnotgui/imgui-1.86/imgui_draw.cpp"
-},
-{
-  "directory": "/Users/yuyue/repos/cs7gv5",
-  "arguments": ["/opt/homebrew/bin/ccache", "/usr/bin/xcrun", "-sdk", "macosx", "clang", "-c", "-Qunused-arguments", "-arch", "arm64", "-mmacosx-version-min=12.3", "-isysroot", "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk", "-Wall", "-Werror", "-std=c++17", "-Imodule/figine/include", "-I/opt/homebrew/Cellar/glm/0.9.9.8/include", "-I/opt/homebrew/Cellar/glfw/3.3.6/include", "-I/opt/homebrew/Cellar/boost/1.76.0/include", "-I/opt/homebrew/Cellar/assimp/5.2.1/include", "-I/opt/homebrew/Cellar/freetype/2.11.1/include/freetype2", "-framework", "OpenGL", "-framework", "GLUT", "-framework", "Cocoa", "-o", "build/.objs/figine/macosx/arm64/release/module/figine/src/imnotgui/demo_win.cpp.o", "module/figine/src/imnotgui/demo_win.cpp"],
-  "file": "module/figine/src/imnotgui/demo_win.cpp"
-},
-{
-  "directory": "/Users/yuyue/repos/cs7gv5",
-  "arguments": ["/opt/homebrew/bin/ccache", "/usr/bin/xcrun", "-sdk", "macosx", "clang", "-c", "-Qunused-arguments", "-arch", "arm64", "-mmacosx-version-min=12.3", "-isysroot", "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk", "-Wall", "-Werror", "-std=c++17", "-Imodule/figine/include", "-I/opt/homebrew/Cellar/glm/0.9.9.8/include", "-I/opt/homebrew/Cellar/glfw/3.3.6/include", "-I/opt/homebrew/Cellar/boost/1.76.0/include", "-I/opt/homebrew/Cellar/assimp/5.2.1/include", "-I/opt/homebrew/Cellar/freetype/2.11.1/include/freetype2", "-framework", "OpenGL", "-framework", "GLUT", "-framework", "Cocoa", "-o", "build/.objs/figine/macosx/arm64/release/module/figine/src/shader/shader_if.cpp.o", "module/figine/src/shader/shader_if.cpp"],
-  "file": "module/figine/src/shader/shader_if.cpp"
-},
-{
-  "directory": "/Users/yuyue/repos/cs7gv5",
-  "arguments": ["/opt/homebrew/bin/ccache", "/usr/bin/xcrun", "-sdk", "macosx", "clang", "-c", "-Qunused-arguments", "-arch", "arm64", "-mmacosx-version-min=12.3", "-isysroot", "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk", "-Wall", "-Werror", "-std=c++17", "-Imodule/figine/include", "-I/opt/homebrew/Cellar/glm/0.9.9.8/include", "-I/opt/homebrew/Cellar/glfw/3.3.6/include", "-I/opt/homebrew/Cellar/boost/1.76.0/include", "-I/opt/homebrew/Cellar/assimp/5.2.1/include", "-I/opt/homebrew/Cellar/freetype/2.11.1/include/freetype2", "-framework", "OpenGL", "-framework", "GLUT", "-framework", "Cocoa", "-o", "build/.objs/figine/macosx/arm64/release/module/figine/src/global/win_mgr.cpp.o", "module/figine/src/global/win_mgr.cpp"],
-  "file": "module/figine/src/global/win_mgr.cpp"
-},
-{
-  "directory": "/Users/yuyue/repos/cs7gv5",
-  "arguments": ["/opt/homebrew/bin/ccache", "/usr/bin/xcrun", "-sdk", "macosx", "clang", "-c", "-Qunused-arguments", "-arch", "arm64", "-mmacosx-version-min=12.3", "-isysroot", "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk", "-Wall", "-Werror", "-std=c++17", "-Imodule/figine/include", "-I/opt/homebrew/Cellar/glm/0.9.9.8/include", "-I/opt/homebrew/Cellar/glfw/3.3.6/include", "-I/opt/homebrew/Cellar/boost/1.76.0/include", "-I/opt/homebrew/Cellar/assimp/5.2.1/include", "-I/opt/homebrew/Cellar/freetype/2.11.1/include/freetype2", "-framework", "OpenGL", "-framework", "GLUT", "-framework", "Cocoa", "-o", "build/.objs/figine/macosx/arm64/release/module/figine/src/global/global.cpp.o", "module/figine/src/global/global.cpp"],
-  "file": "module/figine/src/global/global.cpp"
-},
-{
-  "directory": "/Users/yuyue/repos/cs7gv5",
-  "arguments": ["/opt/homebrew/bin/ccache", "/usr/bin/xcrun", "-sdk", "macosx", "clang", "-c", "-Qunused-arguments", "-arch", "arm64", "-mmacosx-version-min=12.3", "-isysroot", "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk", "-Wall", "-Werror", "-std=c17", "-Imodule/figine/include", "-I/opt/homebrew/Cellar/glm/0.9.9.8/include", "-I/opt/homebrew/Cellar/glfw/3.3.6/include", "-I/opt/homebrew/Cellar/boost/1.76.0/include", "-I/opt/homebrew/Cellar/assimp/5.2.1/include", "-I/opt/homebrew/Cellar/freetype/2.11.1/include/freetype2", "-framework", "OpenGL", "-framework", "GLUT", "-framework", "Cocoa", "-o", "build/.objs/figine/macosx/arm64/release/module/figine/src/glad/glad.c.o", "module/figine/src/glad/glad.c"],
+  "arguments": ["/opt/homebrew/bin/ccache", "/usr/bin/xcrun", "-sdk", "macosx", "clang", "-c", "-Qunused-arguments", "-arch", "arm64", "-mmacosx-version-min=12.3", "-isysroot", "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk", "-Wall", "-Werror", "-std=c17", "-Imodule/figine/include", "-I/opt/homebrew/include", "-framework", "OpenGL", "-framework", "Cocoa", "-o", "build/.objs/figine/macosx/arm64/release/module/figine/src/glad/glad.c.o", "module/figine/src/glad/glad.c"],
   "file": "module/figine/src/glad/glad.c"
 },
 {
   "directory": "/Users/yuyue/repos/cs7gv5",
-  "arguments": ["/opt/homebrew/bin/ccache", "/usr/bin/xcrun", "-sdk", "macosx", "clang", "-c", "-Qunused-arguments", "-arch", "arm64", "-mmacosx-version-min=12.3", "-isysroot", "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk", "-std=c++17", "-Imodule/figine/include", "-I/opt/homebrew/Cellar/glm/0.9.9.8/include", "-I/opt/homebrew/Cellar/glfw/3.3.6/include", "-I/opt/homebrew/Cellar/boost/1.76.0/include", "-I/opt/homebrew/Cellar/assimp/5.2.1/include", "-I/opt/homebrew/Cellar/freetype/2.11.1/include/freetype2", "-framework", "OpenGL", "-framework", "Cocoa", "-o", "build/.objs/assignment1/macosx/arm64/release/assignment1/console.cpp.o", "assignment1/console.cpp"],
+  "arguments": ["/opt/homebrew/bin/ccache", "/usr/bin/xcrun", "-sdk", "macosx", "clang", "-c", "-Qunused-arguments", "-arch", "arm64", "-mmacosx-version-min=12.3", "-isysroot", "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk", "-Wall", "-Werror", "-std=c++17", "-Imodule/figine/include", "-I/opt/homebrew/include", "-framework", "OpenGL", "-framework", "Cocoa", "-o", "build/.objs/figine/macosx/arm64/release/module/figine/src/camera.cpp.o", "module/figine/src/camera.cpp"],
+  "file": "module/figine/src/camera.cpp"
+},
+{
+  "directory": "/Users/yuyue/repos/cs7gv5",
+  "arguments": ["/opt/homebrew/bin/ccache", "/usr/bin/xcrun", "-sdk", "macosx", "clang", "-c", "-Qunused-arguments", "-arch", "arm64", "-mmacosx-version-min=12.3", "-isysroot", "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk", "-Wall", "-Werror", "-std=c++17", "-Imodule/figine/include", "-I/opt/homebrew/include", "-framework", "OpenGL", "-framework", "Cocoa", "-o", "build/.objs/figine/macosx/arm64/release/module/figine/src/object/bone.cpp.o", "module/figine/src/object/bone.cpp"],
+  "file": "module/figine/src/object/bone.cpp"
+},
+{
+  "directory": "/Users/yuyue/repos/cs7gv5",
+  "arguments": ["/opt/homebrew/bin/ccache", "/usr/bin/xcrun", "-sdk", "macosx", "clang", "-c", "-Qunused-arguments", "-arch", "arm64", "-mmacosx-version-min=12.3", "-isysroot", "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk", "-Wall", "-Werror", "-std=c++17", "-Imodule/figine/include", "-I/opt/homebrew/include", "-framework", "OpenGL", "-framework", "Cocoa", "-o", "build/.objs/figine/macosx/arm64/release/module/figine/src/object/mesh.cpp.o", "module/figine/src/object/mesh.cpp"],
+  "file": "module/figine/src/object/mesh.cpp"
+},
+{
+  "directory": "/Users/yuyue/repos/cs7gv5",
+  "arguments": ["/opt/homebrew/bin/ccache", "/usr/bin/xcrun", "-sdk", "macosx", "clang", "-c", "-Qunused-arguments", "-arch", "arm64", "-mmacosx-version-min=12.3", "-isysroot", "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk", "-Wall", "-Werror", "-std=c++17", "-Imodule/figine/include", "-I/opt/homebrew/include", "-framework", "OpenGL", "-framework", "Cocoa", "-o", "build/.objs/figine/macosx/arm64/release/module/figine/src/object/object.cpp.o", "module/figine/src/object/object.cpp"],
+  "file": "module/figine/src/object/object.cpp"
+},
+{
+  "directory": "/Users/yuyue/repos/cs7gv5",
+  "arguments": ["/opt/homebrew/bin/ccache", "/usr/bin/xcrun", "-sdk", "macosx", "clang", "-c", "-Qunused-arguments", "-arch", "arm64", "-mmacosx-version-min=12.3", "-isysroot", "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk", "-Wall", "-Werror", "-std=c++17", "-Imodule/figine/include", "-I/opt/homebrew/include", "-framework", "OpenGL", "-framework", "Cocoa", "-o", "build/.objs/figine/macosx/arm64/release/module/figine/src/object/animation.cpp.o", "module/figine/src/object/animation.cpp"],
+  "file": "module/figine/src/object/animation.cpp"
+},
+{
+  "directory": "/Users/yuyue/repos/cs7gv5",
+  "arguments": ["/opt/homebrew/bin/ccache", "/usr/bin/xcrun", "-sdk", "macosx", "clang", "-c", "-Qunused-arguments", "-arch", "arm64", "-mmacosx-version-min=12.3", "-isysroot", "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk", "-Wall", "-Werror", "-std=c++17", "-Imodule/figine/include", "-I/opt/homebrew/include", "-framework", "OpenGL", "-framework", "Cocoa", "-o", "build/.objs/figine/macosx/arm64/release/module/figine/src/object/animator.cpp.o", "module/figine/src/object/animator.cpp"],
+  "file": "module/figine/src/object/animator.cpp"
+},
+{
+  "directory": "/Users/yuyue/repos/cs7gv5",
+  "arguments": ["/opt/homebrew/bin/ccache", "/usr/bin/xcrun", "-sdk", "macosx", "clang", "-c", "-Qunused-arguments", "-arch", "arm64", "-mmacosx-version-min=12.3", "-isysroot", "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk", "-Wall", "-Werror", "-std=c++17", "-Imodule/figine/include", "-I/opt/homebrew/include", "-framework", "OpenGL", "-framework", "Cocoa", "-o", "build/.objs/figine/macosx/arm64/release/module/figine/src/stb_image.cpp.o", "module/figine/src/stb_image.cpp"],
+  "file": "module/figine/src/stb_image.cpp"
+},
+{
+  "directory": "/Users/yuyue/repos/cs7gv5",
+  "arguments": ["/opt/homebrew/bin/ccache", "/usr/bin/xcrun", "-sdk", "macosx", "clang", "-c", "-Qunused-arguments", "-arch", "arm64", "-mmacosx-version-min=12.3", "-isysroot", "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk", "-Wall", "-Werror", "-std=c++17", "-Imodule/figine/include", "-I/opt/homebrew/include", "-framework", "OpenGL", "-framework", "Cocoa", "-o", "build/.objs/figine/macosx/arm64/release/module/figine/src/imnotgui/imnotgui.cpp.o", "module/figine/src/imnotgui/imnotgui.cpp"],
+  "file": "module/figine/src/imnotgui/imnotgui.cpp"
+},
+{
+  "directory": "/Users/yuyue/repos/cs7gv5",
+  "arguments": ["/opt/homebrew/bin/ccache", "/usr/bin/xcrun", "-sdk", "macosx", "clang", "-c", "-Qunused-arguments", "-arch", "arm64", "-mmacosx-version-min=12.3", "-isysroot", "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk", "-Wall", "-Werror", "-std=c++17", "-Imodule/figine/include", "-I/opt/homebrew/include", "-framework", "OpenGL", "-framework", "Cocoa", "-o", "build/.objs/figine/macosx/arm64/release/module/figine/src/imnotgui/imgui-1.86/imgui_widgets.cpp.o", "module/figine/src/imnotgui/imgui-1.86/imgui_widgets.cpp"],
+  "file": "module/figine/src/imnotgui/imgui-1.86/imgui_widgets.cpp"
+},
+{
+  "directory": "/Users/yuyue/repos/cs7gv5",
+  "arguments": ["/opt/homebrew/bin/ccache", "/usr/bin/xcrun", "-sdk", "macosx", "clang", "-c", "-Qunused-arguments", "-arch", "arm64", "-mmacosx-version-min=12.3", "-isysroot", "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk", "-Wall", "-Werror", "-std=c++17", "-Imodule/figine/include", "-I/opt/homebrew/include", "-framework", "OpenGL", "-framework", "Cocoa", "-o", "build/.objs/figine/macosx/arm64/release/module/figine/src/imnotgui/imgui-1.86/backends/imgui_impl_opengl3.cpp.o", "module/figine/src/imnotgui/imgui-1.86/backends/imgui_impl_opengl3.cpp"],
+  "file": "module/figine/src/imnotgui/imgui-1.86/backends/imgui_impl_opengl3.cpp"
+},
+{
+  "directory": "/Users/yuyue/repos/cs7gv5",
+  "arguments": ["/opt/homebrew/bin/ccache", "/usr/bin/xcrun", "-sdk", "macosx", "clang", "-c", "-Qunused-arguments", "-arch", "arm64", "-mmacosx-version-min=12.3", "-isysroot", "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk", "-Wall", "-Werror", "-std=c++17", "-Imodule/figine/include", "-I/opt/homebrew/include", "-framework", "OpenGL", "-framework", "Cocoa", "-o", "build/.objs/figine/macosx/arm64/release/module/figine/src/imnotgui/imgui-1.86/backends/imgui_impl_glfw.cpp.o", "module/figine/src/imnotgui/imgui-1.86/backends/imgui_impl_glfw.cpp"],
+  "file": "module/figine/src/imnotgui/imgui-1.86/backends/imgui_impl_glfw.cpp"
+},
+{
+  "directory": "/Users/yuyue/repos/cs7gv5",
+  "arguments": ["/opt/homebrew/bin/ccache", "/usr/bin/xcrun", "-sdk", "macosx", "clang", "-c", "-Qunused-arguments", "-arch", "arm64", "-mmacosx-version-min=12.3", "-isysroot", "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk", "-Wall", "-Werror", "-std=c++17", "-Imodule/figine/include", "-I/opt/homebrew/include", "-framework", "OpenGL", "-framework", "Cocoa", "-o", "build/.objs/figine/macosx/arm64/release/module/figine/src/imnotgui/imgui-1.86/imgui.cpp.o", "module/figine/src/imnotgui/imgui-1.86/imgui.cpp"],
+  "file": "module/figine/src/imnotgui/imgui-1.86/imgui.cpp"
+},
+{
+  "directory": "/Users/yuyue/repos/cs7gv5",
+  "arguments": ["/opt/homebrew/bin/ccache", "/usr/bin/xcrun", "-sdk", "macosx", "clang", "-c", "-Qunused-arguments", "-arch", "arm64", "-mmacosx-version-min=12.3", "-isysroot", "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk", "-Wall", "-Werror", "-std=c++17", "-Imodule/figine/include", "-I/opt/homebrew/include", "-framework", "OpenGL", "-framework", "Cocoa", "-o", "build/.objs/figine/macosx/arm64/release/module/figine/src/imnotgui/imgui-1.86/imgui_tables.cpp.o", "module/figine/src/imnotgui/imgui-1.86/imgui_tables.cpp"],
+  "file": "module/figine/src/imnotgui/imgui-1.86/imgui_tables.cpp"
+},
+{
+  "directory": "/Users/yuyue/repos/cs7gv5",
+  "arguments": ["/opt/homebrew/bin/ccache", "/usr/bin/xcrun", "-sdk", "macosx", "clang", "-c", "-Qunused-arguments", "-arch", "arm64", "-mmacosx-version-min=12.3", "-isysroot", "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk", "-Wall", "-Werror", "-std=c++17", "-Imodule/figine/include", "-I/opt/homebrew/include", "-framework", "OpenGL", "-framework", "Cocoa", "-o", "build/.objs/figine/macosx/arm64/release/module/figine/src/imnotgui/imgui-1.86/imgui_demo.cpp.o", "module/figine/src/imnotgui/imgui-1.86/imgui_demo.cpp"],
+  "file": "module/figine/src/imnotgui/imgui-1.86/imgui_demo.cpp"
+},
+{
+  "directory": "/Users/yuyue/repos/cs7gv5",
+  "arguments": ["/opt/homebrew/bin/ccache", "/usr/bin/xcrun", "-sdk", "macosx", "clang", "-c", "-Qunused-arguments", "-arch", "arm64", "-mmacosx-version-min=12.3", "-isysroot", "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk", "-Wall", "-Werror", "-std=c++17", "-Imodule/figine/include", "-I/opt/homebrew/include", "-framework", "OpenGL", "-framework", "Cocoa", "-o", "build/.objs/figine/macosx/arm64/release/module/figine/src/imnotgui/imgui-1.86/imgui_draw.cpp.o", "module/figine/src/imnotgui/imgui-1.86/imgui_draw.cpp"],
+  "file": "module/figine/src/imnotgui/imgui-1.86/imgui_draw.cpp"
+},
+{
+  "directory": "/Users/yuyue/repos/cs7gv5",
+  "arguments": ["/opt/homebrew/bin/ccache", "/usr/bin/xcrun", "-sdk", "macosx", "clang", "-c", "-Qunused-arguments", "-arch", "arm64", "-mmacosx-version-min=12.3", "-isysroot", "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk", "-Wall", "-Werror", "-std=c++17", "-Imodule/figine/include", "-I/opt/homebrew/include", "-framework", "OpenGL", "-framework", "Cocoa", "-o", "build/.objs/figine/macosx/arm64/release/module/figine/src/imnotgui/demo_win.cpp.o", "module/figine/src/imnotgui/demo_win.cpp"],
+  "file": "module/figine/src/imnotgui/demo_win.cpp"
+},
+{
+  "directory": "/Users/yuyue/repos/cs7gv5",
+  "arguments": ["/opt/homebrew/bin/ccache", "/usr/bin/xcrun", "-sdk", "macosx", "clang", "-c", "-Qunused-arguments", "-arch", "arm64", "-mmacosx-version-min=12.3", "-isysroot", "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk", "-Wall", "-Werror", "-std=c++17", "-Imodule/figine/include", "-I/opt/homebrew/include", "-framework", "OpenGL", "-framework", "Cocoa", "-o", "build/.objs/figine/macosx/arm64/release/module/figine/src/shader/shader_if.cpp.o", "module/figine/src/shader/shader_if.cpp"],
+  "file": "module/figine/src/shader/shader_if.cpp"
+},
+{
+  "directory": "/Users/yuyue/repos/cs7gv5",
+  "arguments": ["/opt/homebrew/bin/ccache", "/usr/bin/xcrun", "-sdk", "macosx", "clang", "-c", "-Qunused-arguments", "-arch", "arm64", "-mmacosx-version-min=12.3", "-isysroot", "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk", "-Wall", "-Werror", "-std=c++17", "-Imodule/figine/include", "-I/opt/homebrew/include", "-framework", "OpenGL", "-framework", "Cocoa", "-o", "build/.objs/figine/macosx/arm64/release/module/figine/src/global/win_mgr.cpp.o", "module/figine/src/global/win_mgr.cpp"],
+  "file": "module/figine/src/global/win_mgr.cpp"
+},
+{
+  "directory": "/Users/yuyue/repos/cs7gv5",
+  "arguments": ["/opt/homebrew/bin/ccache", "/usr/bin/xcrun", "-sdk", "macosx", "clang", "-c", "-Qunused-arguments", "-arch", "arm64", "-mmacosx-version-min=12.3", "-isysroot", "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk", "-Wall", "-Werror", "-std=c++17", "-Imodule/figine/include", "-I/opt/homebrew/include", "-framework", "OpenGL", "-framework", "Cocoa", "-o", "build/.objs/figine/macosx/arm64/release/module/figine/src/global/global.cpp.o", "module/figine/src/global/global.cpp"],
+  "file": "module/figine/src/global/global.cpp"
+},
+{
+  "directory": "/Users/yuyue/repos/cs7gv5",
+  "arguments": ["/opt/homebrew/bin/ccache", "/usr/bin/xcrun", "-sdk", "macosx", "clang", "-c", "-Qunused-arguments", "-arch", "arm64", "-mmacosx-version-min=12.3", "-isysroot", "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk", "-std=c++17", "-Imodule/figine/include", "-I/opt/homebrew/include", "-framework", "OpenGL", "-framework", "Cocoa", "-o", "build/.objs/assignment1/macosx/arm64/release/assignment1/console.cpp.o", "assignment1/console.cpp"],
   "file": "assignment1/console.cpp"
 },
 {
   "directory": "/Users/yuyue/repos/cs7gv5",
-  "arguments": ["/opt/homebrew/bin/ccache", "/usr/bin/xcrun", "-sdk", "macosx", "clang", "-c", "-Qunused-arguments", "-arch", "arm64", "-mmacosx-version-min=12.3", "-isysroot", "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk", "-std=c++17", "-Imodule/figine/include", "-I/opt/homebrew/Cellar/glm/0.9.9.8/include", "-I/opt/homebrew/Cellar/glfw/3.3.6/include", "-I/opt/homebrew/Cellar/boost/1.76.0/include", "-I/opt/homebrew/Cellar/assimp/5.2.1/include", "-I/opt/homebrew/Cellar/freetype/2.11.1/include/freetype2", "-framework", "OpenGL", "-framework", "Cocoa", "-o", "build/.objs/assignment1/macosx/arm64/release/assignment1/airplane.cpp.o", "assignment1/airplane.cpp"],
+  "arguments": ["/opt/homebrew/bin/ccache", "/usr/bin/xcrun", "-sdk", "macosx", "clang", "-c", "-Qunused-arguments", "-arch", "arm64", "-mmacosx-version-min=12.3", "-isysroot", "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk", "-std=c++17", "-Imodule/figine/include", "-I/opt/homebrew/include", "-framework", "OpenGL", "-framework", "Cocoa", "-o", "build/.objs/assignment1/macosx/arm64/release/assignment1/airplane.cpp.o", "assignment1/airplane.cpp"],
   "file": "assignment1/airplane.cpp"
 },
 {
   "directory": "/Users/yuyue/repos/cs7gv5",
-  "arguments": ["/opt/homebrew/bin/ccache", "/usr/bin/xcrun", "-sdk", "macosx", "clang", "-c", "-Qunused-arguments", "-arch", "arm64", "-mmacosx-version-min=12.3", "-isysroot", "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk", "-std=c++17", "-Imodule/figine/include", "-I/opt/homebrew/Cellar/glm/0.9.9.8/include", "-I/opt/homebrew/Cellar/glfw/3.3.6/include", "-I/opt/homebrew/Cellar/boost/1.76.0/include", "-I/opt/homebrew/Cellar/assimp/5.2.1/include", "-I/opt/homebrew/Cellar/freetype/2.11.1/include/freetype2", "-framework", "OpenGL", "-framework", "Cocoa", "-o", "build/.objs/assignment1/macosx/arm64/release/assignment1/config.cpp.o", "assignment1/config.cpp"],
+  "arguments": ["/opt/homebrew/bin/ccache", "/usr/bin/xcrun", "-sdk", "macosx", "clang", "-c", "-Qunused-arguments", "-arch", "arm64", "-mmacosx-version-min=12.3", "-isysroot", "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk", "-std=c++17", "-Imodule/figine/include", "-I/opt/homebrew/include", "-framework", "OpenGL", "-framework", "Cocoa", "-o", "build/.objs/assignment1/macosx/arm64/release/assignment1/config.cpp.o", "assignment1/config.cpp"],
   "file": "assignment1/config.cpp"
 },
 {
   "directory": "/Users/yuyue/repos/cs7gv5",
-  "arguments": ["/opt/homebrew/bin/ccache", "/usr/bin/xcrun", "-sdk", "macosx", "clang", "-c", "-Qunused-arguments", "-arch", "arm64", "-mmacosx-version-min=12.3", "-isysroot", "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk", "-std=c++17", "-Imodule/figine/include", "-I/opt/homebrew/Cellar/glm/0.9.9.8/include", "-I/opt/homebrew/Cellar/glfw/3.3.6/include", "-I/opt/homebrew/Cellar/boost/1.76.0/include", "-I/opt/homebrew/Cellar/assimp/5.2.1/include", "-I/opt/homebrew/Cellar/freetype/2.11.1/include/freetype2", "-framework", "OpenGL", "-framework", "Cocoa", "-o", "build/.objs/assignment1/macosx/arm64/release/assignment1/main.cpp.o", "assignment1/main.cpp"],
+  "arguments": ["/opt/homebrew/bin/ccache", "/usr/bin/xcrun", "-sdk", "macosx", "clang", "-c", "-Qunused-arguments", "-arch", "arm64", "-mmacosx-version-min=12.3", "-isysroot", "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk", "-std=c++17", "-Imodule/figine/include", "-I/opt/homebrew/include", "-framework", "OpenGL", "-framework", "Cocoa", "-o", "build/.objs/assignment1/macosx/arm64/release/assignment1/main.cpp.o", "assignment1/main.cpp"],
   "file": "assignment1/main.cpp"
 },
 {
   "directory": "/Users/yuyue/repos/cs7gv5",
-  "arguments": ["/opt/homebrew/bin/ccache", "/usr/bin/xcrun", "-sdk", "macosx", "clang", "-c", "-Qunused-arguments", "-arch", "arm64", "-mmacosx-version-min=12.3", "-isysroot", "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk", "-std=c++17", "-Imodule/figine/include", "-I/opt/homebrew/Cellar/glm/0.9.9.8/include", "-I/opt/homebrew/Cellar/glfw/3.3.6/include", "-I/opt/homebrew/Cellar/boost/1.76.0/include", "-I/opt/homebrew/Cellar/assimp/5.2.1/include", "-I/opt/homebrew/Cellar/freetype/2.11.1/include/freetype2", "-framework", "OpenGL", "-framework", "Cocoa", "-o", "build/.objs/assignment2-1/macosx/arm64/release/assignment2-1/main.cpp.o", "assignment2-1/main.cpp"],
+  "arguments": ["/opt/homebrew/bin/ccache", "/usr/bin/xcrun", "-sdk", "macosx", "clang", "-c", "-Qunused-arguments", "-arch", "arm64", "-mmacosx-version-min=12.3", "-isysroot", "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk", "-std=c++17", "-Imodule/figine/include", "-I/opt/homebrew/include", "-framework", "OpenGL", "-framework", "Cocoa", "-o", "build/.objs/assignment2-3/macosx/arm64/release/assignment2-3/console.cpp.o", "assignment2-3/console.cpp"],
+  "file": "assignment2-3/console.cpp"
+},
+{
+  "directory": "/Users/yuyue/repos/cs7gv5",
+  "arguments": ["/opt/homebrew/bin/ccache", "/usr/bin/xcrun", "-sdk", "macosx", "clang", "-c", "-Qunused-arguments", "-arch", "arm64", "-mmacosx-version-min=12.3", "-isysroot", "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk", "-std=c++17", "-Imodule/figine/include", "-I/opt/homebrew/include", "-framework", "OpenGL", "-framework", "Cocoa", "-o", "build/.objs/assignment2-3/macosx/arm64/release/assignment2-3/peter.cpp.o", "assignment2-3/peter.cpp"],
+  "file": "assignment2-3/peter.cpp"
+},
+{
+  "directory": "/Users/yuyue/repos/cs7gv5",
+  "arguments": ["/opt/homebrew/bin/ccache", "/usr/bin/xcrun", "-sdk", "macosx", "clang", "-c", "-Qunused-arguments", "-arch", "arm64", "-mmacosx-version-min=12.3", "-isysroot", "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk", "-std=c++17", "-Imodule/figine/include", "-I/opt/homebrew/include", "-framework", "OpenGL", "-framework", "Cocoa", "-o", "build/.objs/assignment2-3/macosx/arm64/release/assignment2-3/main.cpp.o", "assignment2-3/main.cpp"],
+  "file": "assignment2-3/main.cpp"
+},
+{
+  "directory": "/Users/yuyue/repos/cs7gv5",
+  "arguments": ["/opt/homebrew/bin/ccache", "/usr/bin/xcrun", "-sdk", "macosx", "clang", "-c", "-Qunused-arguments", "-arch", "arm64", "-mmacosx-version-min=12.3", "-isysroot", "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk", "-std=c++17", "-Imodule/figine/include", "-I/opt/homebrew/include", "-framework", "OpenGL", "-framework", "Cocoa", "-o", "build/.objs/assignment2-1/macosx/arm64/release/assignment2-1/main.cpp.o", "assignment2-1/main.cpp"],
   "file": "assignment2-1/main.cpp"
+},
+{
+  "directory": "/Users/yuyue/repos/cs7gv5",
+  "arguments": ["/opt/homebrew/bin/ccache", "/usr/bin/xcrun", "-sdk", "macosx", "clang", "-c", "-Qunused-arguments", "-arch", "arm64", "-mmacosx-version-min=12.3", "-isysroot", "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk", "-std=c++17", "-Imodule/figine/include", "-I/opt/homebrew/include", "-framework", "OpenGL", "-framework", "Cocoa", "-o", "build/.objs/assignment2-2/macosx/arm64/release/assignment2-2/peter.cpp.o", "assignment2-2/peter.cpp"],
+  "file": "assignment2-2/peter.cpp"
+},
+{
+  "directory": "/Users/yuyue/repos/cs7gv5",
+  "arguments": ["/opt/homebrew/bin/ccache", "/usr/bin/xcrun", "-sdk", "macosx", "clang", "-c", "-Qunused-arguments", "-arch", "arm64", "-mmacosx-version-min=12.3", "-isysroot", "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk", "-std=c++17", "-Imodule/figine/include", "-I/opt/homebrew/include", "-framework", "OpenGL", "-framework", "Cocoa", "-o", "build/.objs/assignment2-2/macosx/arm64/release/assignment2-2/main.cpp.o", "assignment2-2/main.cpp"],
+  "file": "assignment2-2/main.cpp"
 }]
